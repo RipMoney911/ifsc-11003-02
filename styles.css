@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+ 
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+body{
+    font-family: "Montserrat", "Lato", sans-serif;
+    margin:0;
+}
+
+header.primary{
+    background-color: blue;
+    color:white;
+    text-align: center;
+    text-shadow: -1px 1px black;
+    padding:40px;
+    /* Longform */
+    padding-top:40px;
+    padding-right:40px;
+    padding-bottom:40px;
+    padding-left:40px;
+    /* T/R/B/L */
+    padding: 40px 40px 40px 40px;
+    /* T/B | L/R */
+    padding: 20px 40px;
+}
+
+header.primary a{
+    color:white;
+    text-decoration:none;
+}
+
+header.primary h1{
+    font-size:2.5rem;
+    margin:0;
+}
+
+header.primary p.subtitle{
+    font-size:1.3rem;
+    font-weight:bold;
+    /* top| l/r | bottom */
+    margin:10px 0 20px;
+    letter-spacing:-1px;
+}
+
+nav.primary ul{
+    padding:0;
+}
+nav.primary ul li{
+    list-style-type: none;
+}
+nav.primary ul li a{}
